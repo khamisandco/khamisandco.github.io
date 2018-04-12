@@ -1,1 +1,0 @@
-# Khamis + Co
