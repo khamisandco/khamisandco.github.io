@@ -56,9 +56,6 @@ class TeamPhotos extends Component {
                                 <Header as='h3' content='Chief Technology Officer' style={ LightFont }/>
                             </Grid.Column>
                             <Grid.Column width={3} style={ Center }>
-                                <Image className="team-image" src={require('../images/ebony.jpg')}/>
-                                <Header as='h2' content='Ebony Anderson-Brown' style={ Turquoise }/>
-                                <Header as='h3' content='Chief Marketing Officer' style={ LightFont }/>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
