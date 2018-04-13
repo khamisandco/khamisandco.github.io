@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import PropTypes from 'prop-types';
 import Navigation from './Navigation';
-import TeamPhotos from './TeamPhotos';
+// import TeamPhotos from './TeamPhotos';
 
 import {
     Button,
@@ -159,7 +159,7 @@ const Home = () => (
             </Grid.Row>
         </div>
 
-        <TeamPhotos/>
+        {/*<TeamPhotos/>*/}
 
         <Grid.Row>
             <div className="parallax"></div>
