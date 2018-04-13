@@ -133,7 +133,7 @@ const Home = () => (
     <ResponsiveContainer>
         <div style={{ background: '#FFF', padding: '50px 20%' }}>
             <Grid.Row style={{ textAlign: 'center' }}>
-                <Header as='h1' content='Want to be one of the first to know?' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '40px' }}/>
+                <Header as='h1' content='Want to be one of the first to know about our trips?' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '40px' }}/>
                 <Header as='h1' content='Sign up for our mailing list!' style={ LightFont }/>
                     <div>
                         <form action="https://khamisandco.us12.list-manage.com/subscribe/post?u=5a021cfaabc5c04ccd476451a&amp;id=32860af1ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
