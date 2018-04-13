@@ -37,7 +37,7 @@ class Navigation extends Component {
                     <Image style={{ maxWidth: '220px' }} src={require('../images/khamisco_logo.png')}/>
                 </Menu.Item>
                 <Menu.Item style={ IconContainer }>
-                    <a href="https://www.facebook.com/khamisconyc/">
+                    <a href="https://www.facebook.com/khamisconyc/" target="_blank" rel="noopener noreferrer">
                         <svg id="face"
                              xmlns="http://www.w3.org/2000/svg"
                              width="24"
@@ -47,7 +47,7 @@ class Navigation extends Component {
                                      8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/khamisconyc/">
+                    <a href="https://www.instagram.com/khamisconyc/" target="_blank" rel="noopener noreferrer">
                         <svg id="insta"
                              xmlns="http://www.w3.org/2000/svg"
                              width="24"
@@ -64,7 +64,7 @@ class Navigation extends Component {
                                     0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117
                                     3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
                     </a>
-                    <a href="https://www.linkedin.com/company/18381486/">
+                    <a href="https://www.linkedin.com/company/18381486/" target="_blank" rel="noopener noreferrer">
                         <svg id="ld"
                              xmlns="http://www.w3.org/2000/svg"
                              width="24"
@@ -75,7 +75,7 @@ class Navigation extends Component {
                                     1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002
                                     0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
                     </a>
-                    <a href="mailto:khamisco@zahncenternyc.com">
+                    <a href="mailto:khamisco@zahncenternyc.com" target="_blank" rel="noopener noreferrer">
                         <svg id="email"
                              xmlns="http://www.w3.org/2000/svg"
                              width="24"

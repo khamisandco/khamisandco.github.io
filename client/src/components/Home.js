@@ -168,7 +168,9 @@ const Home = () => (
         <div style={{ padding: '100px 20%' }}>
             <Grid.Row style={{ textAlign: 'center' }}>
                 <Header as='h1' content='Questions? Email us for additional information' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontWeight: '300', fontSize: '30px' }}/>
-                <Header as='h1' content='khamisco@zahncenternyc.com' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '20px', marginTop: '-10px' }}/>
+                <a href="mailto:khamisco@zahncenternyc.com" rel="noopener noreferrer" target="_blank">
+                    <Header as='h1' content='khamisco@zahncenternyc.com' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '20px', marginTop: '-10px' }}/>
+                </a>
             </Grid.Row>
         </div>
 
