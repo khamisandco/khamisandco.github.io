@@ -22,7 +22,7 @@ import {
 
 const HomepageHeading = ({ mobile }) => (
     <div>
-        <Image src={require('../images/homepage_image.png')}/>
+        <Image src={require('../images/skyline_nyc.jpg')}/>
     </div>
 );
 
@@ -168,7 +168,7 @@ const Home = () => (
         <div style={{ padding: '100px 20%' }}>
             <Grid.Row style={{ textAlign: 'center' }}>
                 <Header as='h1' content='Questions? Email us for additional information' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontWeight: '300', fontSize: '30px' }}/>
-                <a href="mailto:khamisco@zahncenternyc.com" rel="noopener noreferrer" target="_blank">
+                <a href="mailto:khamisco@zahncenternyc.com">
                     <Header as='h1' content='khamisco@zahncenternyc.com' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '20px', marginTop: '-10px' }}/>
                 </a>
             </Grid.Row>
