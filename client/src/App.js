@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-
-import Home from './components/Home'
+import Routes from './Routes';
+import FooterNav from './components/FooterNav';
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Home/>
+                <Routes />
+                <FooterNav />
             </div>
         );
     }

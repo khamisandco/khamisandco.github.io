@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import '../App.css';
 import PropTypes from 'prop-types';
 import Navigation from './Navigation';
-// import TeamPhotos from './TeamPhotos';
+import TeamPhotos from './TeamPhotos';
+import FooterNav from './FooterNav';
 
 import {
     Button,
@@ -22,7 +23,7 @@ import {
 
 const HomepageHeading = ({ mobile }) => (
     <div>
-        <Image src={require('../images/skyline_nyc.jpg')}/>
+        <Image src={require('../images/brooklynBridge.png')}/>
     </div>
 );
 
@@ -151,16 +152,13 @@ const Home = () => (
         <div style={{ background: '#33CCCC', padding: '50px 20%' }}>
             <Grid.Row style={{ textAlign: 'center' }}>
                 <List style={ WhiteFont }>
-                    <List.Item>1. Take our travel habit test <Icon name='pencil'/></List.Item>
+                    <List.Item>1. Set your <a href="https://tinyurl.com/khamisandcobeta" target="_blank" rel="noopener noreferrer"> travel preferences </a><span><Icon name='pencil'/></span></List.Item>
                     <List.Item>2. Get results based on your personality <Icon name='bar graph'/></List.Item>
                     <List.Item>3. Book your trip, invite a friend if you want <Icon name='users'/></List.Item>
                     <List.Item>4. Enjoy your Khamis + Co. trip! <Icon name='checkmark'/></List.Item>
                 </List>
             </Grid.Row>
         </div>
-
-        {/*<TeamPhotos/>*/}
-
         <Grid.Row>
             <div className="parallax"></div>
         </Grid.Row>
@@ -168,15 +166,9 @@ const Home = () => (
         <div style={{ padding: '100px 20%' }}>
             <Grid.Row style={{ textAlign: 'center' }}>
                 <Header as='h1' content='Questions? Email us for additional information' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontWeight: '300', fontSize: '30px' }}/>
-                <a href="mailto:khamisco@zahncenternyc.com">
-                    <Header as='h1' content='khamisco@zahncenternyc.com' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '20px', marginTop: '-10px' }}/>
+                <a href="mailto:hello@khamisandco.com">
+                    <Header as='h1' content='hello@khamisandco.com' style={{ color: '#33CCCC', fontFamily: 'Quicksand', fontSize: '20px', marginTop: '-10px' }}/>
                 </a>
-            </Grid.Row>
-        </div>
-
-        <div style={{ background: '#DCDCDC', padding: '10px'}}>
-            <Grid.Row>
-                <Header inverted as='h5' content='&copy; Khamis + Co. 2018' style={{ textAlign: 'center', fontFamily: 'Quicksand', fontWeight: '300', color: '#000' }} />
             </Grid.Row>
         </div>
     </ResponsiveContainer>

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Menu, Image } from 'semantic-ui-react';
+// import { Redirect } from 'react-router';
 
 /* Styles */
 
 const HeaderTitles = {
     float: 'right',
-    margin: '24px 0 0 0',
+    margin: '20px 0 0 0',
     fontFamily: 'Quicksand',
     fontWeight: '500',
     cursor: 'pointer'
@@ -34,7 +35,9 @@ class Navigation extends Component {
                 size='large'
             >
                 <Menu.Item as='a' style={ BrandLogo }>
-                    <Image style={{ maxWidth: '220px' }} src={require('../images/khamisco_logo.png')}/>
+                    <a href="/">
+                        <Image style={{ maxWidth: '220px' }} src={require('../images/khamisco_logo.png')}/>
+                    </a>
                 </Menu.Item>
                 <Menu.Item style={ IconContainer }>
                     <a href="https://www.facebook.com/khamisconyc/" target="_blank" rel="noopener noreferrer">
@@ -85,15 +88,21 @@ class Navigation extends Component {
                                     6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
                     </a>
                 </Menu.Item>
-                {/*<Menu.Item style={ HeaderTitles }>*/}
-                    {/*Sign Up*/}
-                {/*</Menu.Item>*/}
-                {/*<Menu.Item style={ HeaderTitles }>*/}
-                    {/*Our Team*/}
-                {/*</Menu.Item>*/}
-                {/*<Menu.Item style={ HeaderTitles }>*/}
-                    {/*About*/}
-                {/*</Menu.Item>*/}
+                <Menu.Item style={ HeaderTitles }>
+                    <a href="https://tinyurl.com/khamisandcobeta" target="_blank" rel="noopener noreferrer">
+                    Sign Up
+                    </a>
+                </Menu.Item>
+                <Menu.Item style={ HeaderTitles }>
+                    <a href="/our-team">
+                    Our Team
+                    </a>
+                </Menu.Item>
+                <Menu.Item style={ HeaderTitles }>
+                    <a href="/about">
+                    About
+                    </a>
+                </Menu.Item>
             </Menu>
         );
     }

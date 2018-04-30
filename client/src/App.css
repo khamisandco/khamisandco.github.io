@@ -2,6 +2,10 @@
     color: #000;
 }
 
+.ui.inverted.menu .item>a:not(.ui) {
+    color: #000;
+}
+
 .ui.primary.button:hover {
     background-color: #33CCCC;
 }
@@ -24,8 +28,23 @@
 }
 
 .team-image {
-    border-radius: 50%;
-    width: 200px;
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margin-bot {
+    margin-bottom: 75px;
+}
+
+.right {
+    float: right;
 }
 
 .subscribe, .ui.button {
@@ -51,6 +70,32 @@
     height: 500px;
     width: 100%;
     /*height: 100%;*/
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prlx {
+    background-image: url('./images/khamis_team.jpg');
+
+    height: 500px;
+    width: 100%;
+    /*height: 100%;*/
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.khamis {
+    background-image: url('./images/khamis_aboelshour.jpg');
+
+    height: 500px;
+    width: 100%;
+    /*margin-top: 160px;*/
 
     background-attachment: fixed;
     background-position: center;
